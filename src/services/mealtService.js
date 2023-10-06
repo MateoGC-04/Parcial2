@@ -8,7 +8,7 @@ export const SearchMealByName = async (name) => {
 export const FetchMealById = async (idMeal) => {
     const response = await fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${idMeal}`)
     const data = await response.json()
-    return data.meals
+    return data.meals[0]
 }
 
 export const FetchMealByFirstLetter = async (letter = 'b') => {
