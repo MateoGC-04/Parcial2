@@ -1,9 +1,9 @@
 # Parcial Segundo Corte Desarrollo Web 🚀
 
 
-Nombre completo estudiante :
+Nombre completo estudiante : Mateo González Cano
 
-Codigo :
+Codigo : 274565
 
 **Descripción del Problema:**
 
